@@ -1,0 +1,57 @@
+.todo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  background-color: #12b72d;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.todo:hover {
+  background-color: #f0f0f0;
+}
+
+.todo:hover .todoText {
+  color: black;
+}
+
+.todoText {
+  flex: 1;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #080202;
+}
+
+.deleteButton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.deleteButton:hover {
+  background-color: darkred;
+}
+
+.editInput {
+  flex: 1;
+  padding: 0.3rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.editInput:focus {
+  border-color: #0070f3;
+}

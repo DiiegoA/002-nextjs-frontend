@@ -1,0 +1,49 @@
+.inputContainer {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.filters button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  background-color: #e0e0e05e;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.filters button:hover {
+  background-color: #d0d0d0dc;
+}
+
+.activeFilter {
+  background-color: #0070f3 !important;
+  color: white;
+}
